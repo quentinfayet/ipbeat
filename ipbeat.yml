@@ -1,0 +1,13 @@
+##### IPBeat example configuration file ####
+
+#### IPBeat propper configuration ####
+ipbeat:
+  #In seconds, defines how often to get public IP
+  period: 1
+
+output:
+  logstash:
+    hosts: ["elk:5044"]
+    bulk_max_size: 1024
+    tls:
+        certificate_authorities: ["/etc/pki/tls/certs/logstash-beats.crt"]

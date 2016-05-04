@@ -1,0 +1,5 @@
+{
+  "fields": "[,{\"name\":\"_index\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"indexed\":false,\"analyzed\":false,\"doc_values\":false},{\"name\":\"_type\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"indexed\":true,\"analyzed\":false,\"doc_values\":false},{\"name\":\"_id\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"indexed\":false,\"analyzed\":false,\"doc_values\":false},{\"name\":\"@timestamp\",\"type\":\"date\",\"count\":0,\"scripted\":false,\"indexed\":true,\"analyzed\":false,\"doc_values\":false},{\"name\":\"beat.ip\",\"type\":\"ip\",\"scripted\":false,\"indexed\":true,\"analyzed\":false,\"doc_values\":true}]",
+  "timeFieldName": "@timestamp",
+  "title": "ipbeat-*"
+}
